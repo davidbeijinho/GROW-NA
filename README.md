@@ -1,7 +1,10 @@
 # GROW APP
 
-TECHS
+BACK
 
 Node.js
-Angular.js
 Mongoose
+
+FRONT
+
+Angular.js
