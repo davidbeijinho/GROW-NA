@@ -12,3 +12,4 @@ FRONT
 
 START DB
 -sudo service mongodb start
+
