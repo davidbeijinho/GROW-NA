@@ -2,9 +2,13 @@
 
 BACK
 
-Node.js
-Mongoose
+-Node.js
+-Mongoose
 
 FRONT
 
-Angular.js
+-Angular.js
+
+
+START DB
+-sudo service mongodb start

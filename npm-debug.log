@@ -1,0 +1,706 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'node-dev' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'node-dev', null ]
+6 verbose cache add name=undefined spec="node-dev" args=["node-dev",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'node-dev',
+7 verbose parsed url   path: 'node-dev',
+7 verbose parsed url   href: 'node-dev' }
+8 silly lockFile c62b500c-node-dev node-dev
+9 verbose lock node-dev /home/nomada/.npm/c62b500c-node-dev.lock
+10 silly lockFile c62b500c-node-dev node-dev
+11 silly lockFile c62b500c-node-dev node-dev
+12 verbose addNamed [ 'node-dev', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 2552a2f1-node-dev node-dev@
+15 verbose lock node-dev@ /home/nomada/.npm/2552a2f1-node-dev.lock
+16 silly addNameRange { name: 'node-dev', range: '*', hasData: false }
+17 verbose url raw node-dev
+18 verbose url resolving [ 'https://registry.npmjs.org/', './node-dev' ]
+19 verbose url resolved https://registry.npmjs.org/node-dev
+20 info trying registry request attempt 1 at 17:50:27
+21 http GET https://registry.npmjs.org/node-dev
+22 http 200 https://registry.npmjs.org/node-dev
+23 silly registry.get cb [ 200,
+23 silly registry.get   { vary: 'Accept',
+23 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+23 silly registry.get     etag: '"5MOFHBP21RR6YI13XEXDTA9R"',
+23 silly registry.get     date: 'Sat, 13 Jul 2013 16:50:28 GMT',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'content-length': '48815' } ]
+24 silly addNameRange number 2 { name: 'node-dev', range: '*', hasData: true }
+25 silly addNameRange versions [ 'node-dev',
+25 silly addNameRange   [ '0.1.3',
+25 silly addNameRange     '0.1.4',
+25 silly addNameRange     '0.1.5',
+25 silly addNameRange     '0.1.6',
+25 silly addNameRange     '0.1.8',
+25 silly addNameRange     '0.1.9',
+25 silly addNameRange     '0.2.0',
+25 silly addNameRange     '0.2.1',
+25 silly addNameRange     '0.2.2',
+25 silly addNameRange     '0.2.3',
+25 silly addNameRange     '0.2.4',
+25 silly addNameRange     '0.2.5',
+25 silly addNameRange     '0.2.6',
+25 silly addNameRange     '0.2.7',
+25 silly addNameRange     '0.2.8',
+25 silly addNameRange     '0.2.9',
+25 silly addNameRange     '0.2.10',
+25 silly addNameRange     '0.3.0',
+25 silly addNameRange     '2.0.0',
+25 silly addNameRange     '2.0.1' ] ]
+26 verbose addNamed [ 'node-dev', '2.0.1' ]
+27 verbose addNamed [ '2.0.1', '2.0.1' ]
+28 silly lockFile 2fb3b019-node-dev-2-0-1 node-dev@2.0.1
+29 verbose lock node-dev@2.0.1 /home/nomada/.npm/2fb3b019-node-dev-2-0-1.lock
+30 silly lockFile 25bffbbb--org-node-dev-node-dev-2-0-1-tgz https://registry.npmjs.org/node-dev/-/node-dev-2.0.1.tgz
+31 verbose lock https://registry.npmjs.org/node-dev/-/node-dev-2.0.1.tgz /home/nomada/.npm/25bffbbb--org-node-dev-node-dev-2-0-1-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-dev/-/node-dev-2.0.1.tgz',
+32 verbose addRemoteTarball   '4ab76190c474e7246594b5692190b2915173c308' ]
+33 info retry fetch attempt 1 at 17:50:29
+34 verbose fetch to= /home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/tmp.tgz
+35 http GET https://registry.npmjs.org/node-dev/-/node-dev-2.0.1.tgz
+36 http 200 https://registry.npmjs.org/node-dev/-/node-dev-2.0.1.tgz
+37 verbose tar unpack /home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/tmp.tgz
+38 silly lockFile 34b44988-9303-0-04903452727012336-package tar:///home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/package
+39 verbose lock tar:///home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/package /home/nomada/.npm/34b44988-9303-0-04903452727012336-package.lock
+40 silly lockFile 9a4b61f8-9303-0-04903452727012336-tmp-tgz tar:///home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/tmp.tgz
+41 verbose lock tar:///home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/tmp.tgz /home/nomada/.npm/9a4b61f8-9303-0-04903452727012336-tmp-tgz.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm extractEntry README.md
+46 silly gunzTarPerm extractEntry .travis.yml
+47 silly gunzTarPerm extractEntry bin/node-dev
+48 silly gunzTarPerm extractEntry icons/node_error.png
+49 silly gunzTarPerm extractEntry icons/node_info.png
+50 silly gunzTarPerm extractEntry lib/cfg.js
+51 silly gunzTarPerm extractEntry lib/hook.js
+52 silly gunzTarPerm extractEntry lib/index.js
+53 silly gunzTarPerm extractEntry lib/ipc.js
+54 silly gunzTarPerm extractEntry lib/notify.js
+55 silly gunzTarPerm extractEntry lib/wrap.js
+56 silly gunzTarPerm extractEntry test/test.js
+57 silly gunzTarPerm extractEntry test/fixture/argv.js
+58 silly gunzTarPerm extractEntry test/fixture/cluster.js
+59 silly gunzTarPerm extractEntry test/fixture/echo.js
+60 silly gunzTarPerm extractEntry test/fixture/error.js
+61 silly gunzTarPerm extractEntry test/fixture/server.js
+62 silly gunzTarPerm extractEntry test/fixture/catchNoSuchModule.js
+63 silly gunzTarPerm extractEntry test/fixture/main.js
+64 silly gunzTarPerm extractEntry test/fixture/message.js
+65 silly gunzTarPerm extractEntry test/fixture/noSuchModule.js
+66 silly gunzTarPerm extractEntry test/fixture/pid.js
+67 silly gunzTarPerm extractEntry test/fixture/exit.js
+68 silly gunzTarPerm extractEntry test/fixture/vmtest.js
+69 silly gunzTarPerm extractEntry test/fixture/log.js
+70 silly gunzTarPerm extractEntry test/fixture/server.coffee
+71 silly gunzTarPerm extractEntry test/fixture/cluster.coffee
+72 silly gunzTarPerm extractEntry test/mocha.opts
+73 silly lockFile 34b44988-9303-0-04903452727012336-package tar:///home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/package
+74 silly lockFile 34b44988-9303-0-04903452727012336-package tar:///home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/package
+75 silly lockFile 9a4b61f8-9303-0-04903452727012336-tmp-tgz tar:///home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/tmp.tgz
+76 silly lockFile 9a4b61f8-9303-0-04903452727012336-tmp-tgz tar:///home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/tmp.tgz
+77 verbose tar pack [ '/home/nomada/.npm/node-dev/2.0.1/package.tgz',
+77 verbose tar pack   '/home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/package' ]
+78 verbose tarball /home/nomada/.npm/node-dev/2.0.1/package.tgz
+79 verbose folder /home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/package
+80 silly lockFile 34b44988-9303-0-04903452727012336-package tar:///home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/package
+81 verbose lock tar:///home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/package /home/nomada/.npm/34b44988-9303-0-04903452727012336-package.lock
+82 silly lockFile e63b6dc3-a-npm-node-dev-2-0-1-package-tgz tar:///home/nomada/.npm/node-dev/2.0.1/package.tgz
+83 verbose lock tar:///home/nomada/.npm/node-dev/2.0.1/package.tgz /home/nomada/.npm/e63b6dc3-a-npm-node-dev-2-0-1-package-tgz.lock
+84 silly lockFile 34b44988-9303-0-04903452727012336-package tar:///home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/package
+85 silly lockFile 34b44988-9303-0-04903452727012336-package tar:///home/nomada/tmp/npm-18016/1373734229303-0.04903452727012336/package
+86 silly lockFile e63b6dc3-a-npm-node-dev-2-0-1-package-tgz tar:///home/nomada/.npm/node-dev/2.0.1/package.tgz
+87 silly lockFile e63b6dc3-a-npm-node-dev-2-0-1-package-tgz tar:///home/nomada/.npm/node-dev/2.0.1/package.tgz
+88 silly lockFile 03393307-omada-npm-node-dev-2-0-1-package /home/nomada/.npm/node-dev/2.0.1/package
+89 verbose lock /home/nomada/.npm/node-dev/2.0.1/package /home/nomada/.npm/03393307-omada-npm-node-dev-2-0-1-package.lock
+90 silly lockFile 03393307-omada-npm-node-dev-2-0-1-package /home/nomada/.npm/node-dev/2.0.1/package
+91 silly lockFile 03393307-omada-npm-node-dev-2-0-1-package /home/nomada/.npm/node-dev/2.0.1/package
+92 verbose tar unpack /home/nomada/.npm/node-dev/2.0.1/package.tgz
+93 silly lockFile c5f5599a-omada-npm-node-dev-2-0-1-package tar:///home/nomada/.npm/node-dev/2.0.1/package
+94 verbose lock tar:///home/nomada/.npm/node-dev/2.0.1/package /home/nomada/.npm/c5f5599a-omada-npm-node-dev-2-0-1-package.lock
+95 silly lockFile e63b6dc3-a-npm-node-dev-2-0-1-package-tgz tar:///home/nomada/.npm/node-dev/2.0.1/package.tgz
+96 verbose lock tar:///home/nomada/.npm/node-dev/2.0.1/package.tgz /home/nomada/.npm/e63b6dc3-a-npm-node-dev-2-0-1-package-tgz.lock
+97 silly gunzTarPerm modes [ '755', '644' ]
+98 silly gunzTarPerm extractEntry package.json
+99 silly gunzTarPerm extractEntry .npmignore
+100 silly gunzTarPerm extractEntry README.md
+101 silly gunzTarPerm extractEntry .travis.yml
+102 silly gunzTarPerm extractEntry bin/node-dev
+103 silly gunzTarPerm extractEntry icons/node_error.png
+104 silly gunzTarPerm extractEntry icons/node_info.png
+105 silly gunzTarPerm extractEntry lib/cfg.js
+106 silly gunzTarPerm extractEntry lib/hook.js
+107 silly gunzTarPerm extractEntry lib/index.js
+108 silly gunzTarPerm extractEntry lib/ipc.js
+109 silly gunzTarPerm extractEntry lib/notify.js
+110 silly gunzTarPerm extractEntry lib/wrap.js
+111 silly gunzTarPerm extractEntry test/test.js
+112 silly gunzTarPerm extractEntry test/fixture/argv.js
+113 silly gunzTarPerm extractEntry test/fixture/cluster.js
+114 silly gunzTarPerm extractEntry test/fixture/echo.js
+115 silly gunzTarPerm extractEntry test/fixture/error.js
+116 silly gunzTarPerm extractEntry test/fixture/server.js
+117 silly gunzTarPerm extractEntry test/fixture/catchNoSuchModule.js
+118 silly gunzTarPerm extractEntry test/fixture/main.js
+119 silly gunzTarPerm extractEntry test/fixture/message.js
+120 silly gunzTarPerm extractEntry test/fixture/noSuchModule.js
+121 silly gunzTarPerm extractEntry test/fixture/pid.js
+122 silly gunzTarPerm extractEntry test/fixture/exit.js
+123 silly gunzTarPerm extractEntry test/fixture/vmtest.js
+124 silly gunzTarPerm extractEntry test/fixture/log.js
+125 silly gunzTarPerm extractEntry test/fixture/server.coffee
+126 silly gunzTarPerm extractEntry test/fixture/cluster.coffee
+127 silly gunzTarPerm extractEntry test/mocha.opts
+128 silly lockFile c5f5599a-omada-npm-node-dev-2-0-1-package tar:///home/nomada/.npm/node-dev/2.0.1/package
+129 silly lockFile c5f5599a-omada-npm-node-dev-2-0-1-package tar:///home/nomada/.npm/node-dev/2.0.1/package
+130 silly lockFile e63b6dc3-a-npm-node-dev-2-0-1-package-tgz tar:///home/nomada/.npm/node-dev/2.0.1/package.tgz
+131 silly lockFile e63b6dc3-a-npm-node-dev-2-0-1-package-tgz tar:///home/nomada/.npm/node-dev/2.0.1/package.tgz
+132 verbose chmod /home/nomada/.npm/node-dev/2.0.1/package.tgz 644
+133 verbose chown /home/nomada/.npm/node-dev/2.0.1/package.tgz [ 1000, 1000 ]
+134 silly lockFile 25bffbbb--org-node-dev-node-dev-2-0-1-tgz https://registry.npmjs.org/node-dev/-/node-dev-2.0.1.tgz
+135 silly lockFile 25bffbbb--org-node-dev-node-dev-2-0-1-tgz https://registry.npmjs.org/node-dev/-/node-dev-2.0.1.tgz
+136 silly lockFile 2fb3b019-node-dev-2-0-1 node-dev@2.0.1
+137 silly lockFile 2fb3b019-node-dev-2-0-1 node-dev@2.0.1
+138 silly lockFile 2552a2f1-node-dev node-dev@
+139 silly lockFile 2552a2f1-node-dev node-dev@
+140 silly resolved [ { name: 'node-dev',
+140 silly resolved     version: '2.0.1',
+140 silly resolved     description: 'Restarts your app when files are modified',
+140 silly resolved     keywords: [ 'restart', 'reload', 'supervisor', 'monitor', 'watch' ],
+140 silly resolved     author: { name: 'Felix Gnass' },
+140 silly resolved     repository: { type: 'git', url: 'http://github.com/fgnass/node-dev.git' },
+140 silly resolved     bin: { 'node-dev': './bin/node-dev' },
+140 silly resolved     main: './lib',
+140 silly resolved     preferGlobal: true,
+140 silly resolved     engines: { node: '>=0.8.0' },
+140 silly resolved     scripts: { test: './node_modules/.bin/mocha' },
+140 silly resolved     dependencies:
+140 silly resolved      { growl: '~1.7.0',
+140 silly resolved        dateformat: '~1.0.4-1.2.3',
+140 silly resolved        chokidar: '~0.6.2' },
+140 silly resolved     devDependencies:
+140 silly resolved      { mocha: '~1.4.1',
+140 silly resolved        'expect.js': '~0.2.0',
+140 silly resolved        touch: '0.0.2',
+140 silly resolved        'coffee-script': '~1.5.0' },
+140 silly resolved     readme: '[![Build Status](https://secure.travis-ci.org/fgnass/node-dev.png)](http://travis-ci.org/fgnass/node-dev)\n\n# node-dev\n\nNode-dev is a development tool for [Node.js](http://nodejs.org) that automatically restarts the node process when a script is modified.\n\nIt\'s an alternative to tools like [supervisor](https://github.com/isaacs/node-supervisor) or [nodemon](https://github.com/remy/nodemon) that doesn\'t require any configuration. Just run `node-dev foo.js` as you would normally run `node` and it will automatically figure out which files need to be watched.\n\nYou may also use node-dev with [CoffeeScript](http://http://coffeescript.org/) or [LiveScript](http://livescript.net/) apps. Just run `node-dev app.coffee` or `node-dev app.ls`. You may also register additional language flavors by adding them to the extensions list in your [.node-dev.json](#settings) config file.\n\n\nDesktop Notifications\n=====================\n\nStatus and error messages can be displayed as desktop notification using either [Growl](http://growl.info/about.php) or [libnotify](http://developer.gnome.org/libnotify/).\n\n![Screenshot](http://fgnass.github.com/images/node-dev.png)\n\n![Screenshot](http://fgnass.github.com/images/node-dev-linux.png)\n\n\nInstallation\n============\n\nNode-dev can be installed via [npm](http://github.com/isaacs/npm):\n\n    npm install -g node-dev\n\nIn order to use Growl notifications [growlnotify](http://growl.info/extras.php#growlnotify) must be installed on your system.\n\nSettings\n========\n\nUpon startup node-dev looks for a `.node-dev.json` file in the user\'s HOME directory. It will also look for a `.node-dev.json` file in the current directory which – if present – overwrites the global settings.\n\n* __vm__ – Whether to watch files loaded via Node\'s [VM](http://nodejs.org/docs/latest/api/vm.html) module. _Default:_ `true`\n* __fork__ – Whether to hook into [child_process.fork()](http://nodejs.org/docs/latest/api/child_process.html#child_process_child_process_fork_modulepath_args_options) which is required for [clustered](http://nodejs.org/docs/latest/api/cluster.html) programs. _Default:_ `true`\n* __notify__ – Whether to display desktop notifications. _Default:_ `true`\n* __timestamp__ – The timestamp format to use for logging restarts. _Default:_ `"HH:MM:ss"`\n* __clear__ – Whether to clear the screen upon restarts. _Default:_ `false`\n* __extensions__ – Modules to load based bad on extension of the main script. _Default:_\n  `{ coffee: "coffee-script", ls: "LiveScript" }`\n',
+140 silly resolved     readmeFilename: 'README.md',
+140 silly resolved     bugs: { url: 'https://github.com/fgnass/node-dev/issues' },
+140 silly resolved     _id: 'node-dev@2.0.1',
+140 silly resolved     dist: { shasum: 'a0e265a60738c453cf3ad9ed5664e60eead0f188' },
+140 silly resolved     _from: 'node-dev@',
+140 silly resolved     _resolved: 'https://registry.npmjs.org/node-dev/-/node-dev-2.0.1.tgz' } ]
+141 info install node-dev@2.0.1 into /usr/lib
+142 info installOne node-dev@2.0.1
+143 info /usr/lib/node_modules/node-dev unbuild
+144 verbose tar unpack /home/nomada/.npm/node-dev/2.0.1/package.tgz
+145 silly lockFile 6a09cdf2-ar-usr-lib-node-modules-node-dev tar:///usr/lib/node_modules/node-dev
+146 verbose lock tar:///usr/lib/node_modules/node-dev /home/nomada/.npm/6a09cdf2-ar-usr-lib-node-modules-node-dev.lock
+147 silly lockFile e63b6dc3-a-npm-node-dev-2-0-1-package-tgz tar:///home/nomada/.npm/node-dev/2.0.1/package.tgz
+148 verbose lock tar:///home/nomada/.npm/node-dev/2.0.1/package.tgz /home/nomada/.npm/e63b6dc3-a-npm-node-dev-2-0-1-package-tgz.lock
+149 silly gunzTarPerm modes [ '755', '644' ]
+150 silly gunzTarPerm extractEntry package.json
+151 silly gunzTarPerm extractEntry .npmignore
+152 silly gunzTarPerm extractEntry README.md
+153 silly gunzTarPerm extractEntry .travis.yml
+154 silly gunzTarPerm extractEntry bin/node-dev
+155 silly gunzTarPerm extractEntry icons/node_error.png
+156 silly gunzTarPerm extractEntry icons/node_info.png
+157 silly gunzTarPerm extractEntry lib/cfg.js
+158 silly gunzTarPerm extractEntry lib/hook.js
+159 silly gunzTarPerm extractEntry lib/index.js
+160 silly gunzTarPerm extractEntry lib/ipc.js
+161 silly gunzTarPerm extractEntry lib/notify.js
+162 silly gunzTarPerm extractEntry lib/wrap.js
+163 silly gunzTarPerm extractEntry test/test.js
+164 silly gunzTarPerm extractEntry test/fixture/argv.js
+165 silly gunzTarPerm extractEntry test/fixture/cluster.js
+166 silly gunzTarPerm extractEntry test/fixture/echo.js
+167 silly gunzTarPerm extractEntry test/fixture/error.js
+168 silly gunzTarPerm extractEntry test/fixture/server.js
+169 silly gunzTarPerm extractEntry test/fixture/catchNoSuchModule.js
+170 silly gunzTarPerm extractEntry test/fixture/main.js
+171 silly gunzTarPerm extractEntry test/fixture/message.js
+172 silly gunzTarPerm extractEntry test/fixture/noSuchModule.js
+173 silly gunzTarPerm extractEntry test/fixture/pid.js
+174 silly gunzTarPerm extractEntry test/fixture/exit.js
+175 silly gunzTarPerm extractEntry test/fixture/vmtest.js
+176 silly gunzTarPerm extractEntry test/fixture/log.js
+177 silly gunzTarPerm extractEntry test/fixture/server.coffee
+178 silly gunzTarPerm extractEntry test/fixture/cluster.coffee
+179 silly gunzTarPerm extractEntry test/mocha.opts
+180 silly lockFile 6a09cdf2-ar-usr-lib-node-modules-node-dev tar:///usr/lib/node_modules/node-dev
+181 silly lockFile 6a09cdf2-ar-usr-lib-node-modules-node-dev tar:///usr/lib/node_modules/node-dev
+182 silly lockFile e63b6dc3-a-npm-node-dev-2-0-1-package-tgz tar:///home/nomada/.npm/node-dev/2.0.1/package.tgz
+183 silly lockFile e63b6dc3-a-npm-node-dev-2-0-1-package-tgz tar:///home/nomada/.npm/node-dev/2.0.1/package.tgz
+184 info preinstall node-dev@2.0.1
+185 verbose readDependencies using package.json deps
+186 verbose readDependencies using package.json deps
+187 verbose cache add [ 'growl@~1.7.0', null ]
+188 verbose cache add name=undefined spec="growl@~1.7.0" args=["growl@~1.7.0",null]
+189 verbose parsed url { protocol: null,
+189 verbose parsed url   slashes: null,
+189 verbose parsed url   auth: null,
+189 verbose parsed url   host: null,
+189 verbose parsed url   port: null,
+189 verbose parsed url   hostname: null,
+189 verbose parsed url   hash: null,
+189 verbose parsed url   search: null,
+189 verbose parsed url   query: null,
+189 verbose parsed url   pathname: 'growl@~1.7.0',
+189 verbose parsed url   path: 'growl@~1.7.0',
+189 verbose parsed url   href: 'growl@~1.7.0' }
+190 verbose cache add name="growl" spec="~1.7.0" args=["growl","~1.7.0"]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: '~1.7.0',
+191 verbose parsed url   path: '~1.7.0',
+191 verbose parsed url   href: '~1.7.0' }
+192 verbose addNamed [ 'growl', '~1.7.0' ]
+193 verbose addNamed [ null, '>=1.7.0-0 <1.8.0-0' ]
+194 silly lockFile 4821b59b-growl-1-7-0 growl@~1.7.0
+195 verbose lock growl@~1.7.0 /home/nomada/.npm/4821b59b-growl-1-7-0.lock
+196 verbose cache add [ 'dateformat@~1.0.4-1.2.3', null ]
+197 verbose cache add name=undefined spec="dateformat@~1.0.4-1.2.3" args=["dateformat@~1.0.4-1.2.3",null]
+198 verbose parsed url { protocol: null,
+198 verbose parsed url   slashes: null,
+198 verbose parsed url   auth: null,
+198 verbose parsed url   host: null,
+198 verbose parsed url   port: null,
+198 verbose parsed url   hostname: null,
+198 verbose parsed url   hash: null,
+198 verbose parsed url   search: null,
+198 verbose parsed url   query: null,
+198 verbose parsed url   pathname: 'dateformat@~1.0.4-1.2.3',
+198 verbose parsed url   path: 'dateformat@~1.0.4-1.2.3',
+198 verbose parsed url   href: 'dateformat@~1.0.4-1.2.3' }
+199 verbose cache add name="dateformat" spec="~1.0.4-1.2.3" args=["dateformat","~1.0.4-1.2.3"]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: '~1.0.4-1.2.3',
+200 verbose parsed url   path: '~1.0.4-1.2.3',
+200 verbose parsed url   href: '~1.0.4-1.2.3' }
+201 verbose addNamed [ 'dateformat', '~1.0.4-1.2.3' ]
+202 verbose addNamed [ null, '>=1.0.4-1.2.3 <1.1.0-0' ]
+203 silly lockFile fa876287-dateformat-1-0-4-1-2-3 dateformat@~1.0.4-1.2.3
+204 verbose lock dateformat@~1.0.4-1.2.3 /home/nomada/.npm/fa876287-dateformat-1-0-4-1-2-3.lock
+205 silly addNameRange { name: 'growl', range: '>=1.7.0-0 <1.8.0-0', hasData: false }
+206 verbose cache add [ 'chokidar@~0.6.2', null ]
+207 verbose cache add name=undefined spec="chokidar@~0.6.2" args=["chokidar@~0.6.2",null]
+208 verbose parsed url { protocol: null,
+208 verbose parsed url   slashes: null,
+208 verbose parsed url   auth: null,
+208 verbose parsed url   host: null,
+208 verbose parsed url   port: null,
+208 verbose parsed url   hostname: null,
+208 verbose parsed url   hash: null,
+208 verbose parsed url   search: null,
+208 verbose parsed url   query: null,
+208 verbose parsed url   pathname: 'chokidar@~0.6.2',
+208 verbose parsed url   path: 'chokidar@~0.6.2',
+208 verbose parsed url   href: 'chokidar@~0.6.2' }
+209 verbose cache add name="chokidar" spec="~0.6.2" args=["chokidar","~0.6.2"]
+210 verbose parsed url { protocol: null,
+210 verbose parsed url   slashes: null,
+210 verbose parsed url   auth: null,
+210 verbose parsed url   host: null,
+210 verbose parsed url   port: null,
+210 verbose parsed url   hostname: null,
+210 verbose parsed url   hash: null,
+210 verbose parsed url   search: null,
+210 verbose parsed url   query: null,
+210 verbose parsed url   pathname: '~0.6.2',
+210 verbose parsed url   path: '~0.6.2',
+210 verbose parsed url   href: '~0.6.2' }
+211 verbose addNamed [ 'chokidar', '~0.6.2' ]
+212 verbose addNamed [ null, '>=0.6.2-0 <0.7.0-0' ]
+213 silly lockFile 47b26ac2-chokidar-0-6-2 chokidar@~0.6.2
+214 verbose lock chokidar@~0.6.2 /home/nomada/.npm/47b26ac2-chokidar-0-6-2.lock
+215 silly addNameRange { name: 'dateformat',
+215 silly addNameRange   range: '>=1.0.4-1.2.3 <1.1.0-0',
+215 silly addNameRange   hasData: false }
+216 silly addNameRange { name: 'chokidar', range: '>=0.6.2-0 <0.7.0-0', hasData: false }
+217 verbose url raw dateformat
+218 verbose url resolving [ 'https://registry.npmjs.org/', './dateformat' ]
+219 verbose url resolved https://registry.npmjs.org/dateformat
+220 info trying registry request attempt 1 at 17:50:31
+221 http GET https://registry.npmjs.org/dateformat
+222 verbose url raw growl
+223 verbose url resolving [ 'https://registry.npmjs.org/', './growl' ]
+224 verbose url resolved https://registry.npmjs.org/growl
+225 info trying registry request attempt 1 at 17:50:31
+226 verbose etag "6SD2371L0MQBHTWNPQDK6FYDW"
+227 http GET https://registry.npmjs.org/growl
+228 verbose url raw chokidar
+229 verbose url resolving [ 'https://registry.npmjs.org/', './chokidar' ]
+230 verbose url resolved https://registry.npmjs.org/chokidar
+231 info trying registry request attempt 1 at 17:50:31
+232 verbose etag "7UFSPB9NMK236GM1RYFWNS8NT"
+233 http GET https://registry.npmjs.org/chokidar
+234 http 200 https://registry.npmjs.org/dateformat
+235 silly registry.get cb [ 200,
+235 silly registry.get   { vary: 'Accept',
+235 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+235 silly registry.get     etag: '"53MGS4758SFBP4J0VMOWHAVRB"',
+235 silly registry.get     date: 'Sat, 13 Jul 2013 16:50:32 GMT',
+235 silly registry.get     'content-type': 'application/json',
+235 silly registry.get     'content-length': '17897' } ]
+236 silly addNameRange number 2 { name: 'dateformat',
+236 silly addNameRange   range: '>=1.0.4-1.2.3 <1.1.0-0',
+236 silly addNameRange   hasData: true }
+237 silly addNameRange versions [ 'dateformat',
+237 silly addNameRange   [ '0.9.0-1.2.3',
+237 silly addNameRange     '1.0.0-1.2.3',
+237 silly addNameRange     '1.0.1-1.2.3',
+237 silly addNameRange     '1.0.2-1.2.3',
+237 silly addNameRange     '1.0.3-1.2.3',
+237 silly addNameRange     '1.0.4-1.2.3',
+237 silly addNameRange     '1.0.5-1.2.3',
+237 silly addNameRange     '1.0.6-1.2.3' ] ]
+238 verbose addNamed [ 'dateformat', '1.0.6-1.2.3' ]
+239 verbose addNamed [ '1.0.6-1.2.3', '1.0.6-1.2.3' ]
+240 silly lockFile 0128c02f-dateformat-1-0-6-1-2-3 dateformat@1.0.6-1.2.3
+241 verbose lock dateformat@1.0.6-1.2.3 /home/nomada/.npm/0128c02f-dateformat-1-0-6-1-2-3.lock
+242 silly lockFile 98600888-ormat-dateformat-1-0-6-1-2-3-tgz https://registry.npmjs.org/dateformat/-/dateformat-1.0.6-1.2.3.tgz
+243 verbose lock https://registry.npmjs.org/dateformat/-/dateformat-1.0.6-1.2.3.tgz /home/nomada/.npm/98600888-ormat-dateformat-1-0-6-1-2-3-tgz.lock
+244 verbose addRemoteTarball [ 'https://registry.npmjs.org/dateformat/-/dateformat-1.0.6-1.2.3.tgz',
+244 verbose addRemoteTarball   '6b3de9f974f698d8b2d3ff9094bbaac8d696c16b' ]
+245 info retry fetch attempt 1 at 17:50:33
+246 verbose fetch to= /home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/tmp.tgz
+247 http GET https://registry.npmjs.org/dateformat/-/dateformat-1.0.6-1.2.3.tgz
+248 http 304 https://registry.npmjs.org/growl
+249 silly registry.get cb [ 304,
+249 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+249 silly registry.get     etag: '"6SD2371L0MQBHTWNPQDK6FYDW"',
+249 silly registry.get     date: 'Sat, 13 Jul 2013 16:50:32 GMT',
+249 silly registry.get     'content-length': '0' } ]
+250 verbose etag growl from cache
+251 silly addNameRange number 2 { name: 'growl', range: '>=1.7.0-0 <1.8.0-0', hasData: true }
+252 silly addNameRange versions [ 'growl',
+252 silly addNameRange   [ '1.0.1',
+252 silly addNameRange     '1.0.2',
+252 silly addNameRange     '1.1.0',
+252 silly addNameRange     '1.2.0',
+252 silly addNameRange     '1.2.1',
+252 silly addNameRange     '1.3.0',
+252 silly addNameRange     '1.4.0',
+252 silly addNameRange     '1.4.1',
+252 silly addNameRange     '1.5.0',
+252 silly addNameRange     '1.5.1',
+252 silly addNameRange     '1.6.0',
+252 silly addNameRange     '1.6.1',
+252 silly addNameRange     '1.7.0' ] ]
+253 verbose addNamed [ 'growl', '1.7.0' ]
+254 verbose addNamed [ '1.7.0', '1.7.0' ]
+255 silly lockFile 2e65a17a-growl-1-7-0 growl@1.7.0
+256 verbose lock growl@1.7.0 /home/nomada/.npm/2e65a17a-growl-1-7-0.lock
+257 silly lockFile 2e65a17a-growl-1-7-0 growl@1.7.0
+258 silly lockFile 2e65a17a-growl-1-7-0 growl@1.7.0
+259 silly lockFile 4821b59b-growl-1-7-0 growl@~1.7.0
+260 silly lockFile 4821b59b-growl-1-7-0 growl@~1.7.0
+261 http 304 https://registry.npmjs.org/chokidar
+262 silly registry.get cb [ 304,
+262 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+262 silly registry.get     etag: '"7UFSPB9NMK236GM1RYFWNS8NT"',
+262 silly registry.get     date: 'Sat, 13 Jul 2013 16:50:33 GMT',
+262 silly registry.get     'content-length': '0' } ]
+263 verbose etag chokidar from cache
+264 silly addNameRange number 2 { name: 'chokidar', range: '>=0.6.2-0 <0.7.0-0', hasData: true }
+265 silly addNameRange versions [ 'chokidar',
+265 silly addNameRange   [ '0.1.1',
+265 silly addNameRange     '0.2.0',
+265 silly addNameRange     '0.2.1',
+265 silly addNameRange     '0.2.2',
+265 silly addNameRange     '0.2.3',
+265 silly addNameRange     '0.2.4',
+265 silly addNameRange     '0.2.5',
+265 silly addNameRange     '0.2.6',
+265 silly addNameRange     '0.3.0',
+265 silly addNameRange     '0.4.0',
+265 silly addNameRange     '0.5.0',
+265 silly addNameRange     '0.5.1',
+265 silly addNameRange     '0.5.2',
+265 silly addNameRange     '0.5.3',
+265 silly addNameRange     '0.6.0',
+265 silly addNameRange     '0.6.1',
+265 silly addNameRange     '0.6.2' ] ]
+266 verbose addNamed [ 'chokidar', '0.6.2' ]
+267 verbose addNamed [ '0.6.2', '0.6.2' ]
+268 silly lockFile 31eef98d-chokidar-0-6-2 chokidar@0.6.2
+269 verbose lock chokidar@0.6.2 /home/nomada/.npm/31eef98d-chokidar-0-6-2.lock
+270 silly lockFile 31eef98d-chokidar-0-6-2 chokidar@0.6.2
+271 silly lockFile 31eef98d-chokidar-0-6-2 chokidar@0.6.2
+272 silly lockFile 47b26ac2-chokidar-0-6-2 chokidar@~0.6.2
+273 silly lockFile 47b26ac2-chokidar-0-6-2 chokidar@~0.6.2
+274 http 200 https://registry.npmjs.org/dateformat/-/dateformat-1.0.6-1.2.3.tgz
+275 verbose tar unpack /home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/tmp.tgz
+276 silly lockFile ba9e98cf-33058-0-9442901979200542-package tar:///home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/package
+277 verbose lock tar:///home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/package /home/nomada/.npm/ba9e98cf-33058-0-9442901979200542-package.lock
+278 silly lockFile c38058e3-33058-0-9442901979200542-tmp-tgz tar:///home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/tmp.tgz
+279 verbose lock tar:///home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/tmp.tgz /home/nomada/.npm/c38058e3-33058-0-9442901979200542-tmp-tgz.lock
+280 silly gunzTarPerm modes [ '755', '644' ]
+281 silly gunzTarPerm extractEntry package.json
+282 silly gunzTarPerm extractEntry lib/dateformat.js
+283 silly gunzTarPerm extractEntry Readme.md
+284 silly gunzTarPerm extractEntry test/basic.js
+285 silly gunzTarPerm extractEntry test/test_dayofweek.js
+286 silly gunzTarPerm extractEntry test/test_weekofyear.js
+287 silly gunzTarPerm extractEntry test/test_weekofyear.sh
+288 silly lockFile ba9e98cf-33058-0-9442901979200542-package tar:///home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/package
+289 silly lockFile ba9e98cf-33058-0-9442901979200542-package tar:///home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/package
+290 silly lockFile c38058e3-33058-0-9442901979200542-tmp-tgz tar:///home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/tmp.tgz
+291 silly lockFile c38058e3-33058-0-9442901979200542-tmp-tgz tar:///home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/tmp.tgz
+292 verbose tar pack [ '/home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz',
+292 verbose tar pack   '/home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/package' ]
+293 verbose tarball /home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz
+294 verbose folder /home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/package
+295 silly lockFile ba9e98cf-33058-0-9442901979200542-package tar:///home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/package
+296 verbose lock tar:///home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/package /home/nomada/.npm/ba9e98cf-33058-0-9442901979200542-package.lock
+297 silly lockFile f6343e2f-teformat-1-0-6-1-2-3-package-tgz tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz
+298 verbose lock tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz /home/nomada/.npm/f6343e2f-teformat-1-0-6-1-2-3-package-tgz.lock
+299 silly lockFile ba9e98cf-33058-0-9442901979200542-package tar:///home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/package
+300 silly lockFile ba9e98cf-33058-0-9442901979200542-package tar:///home/nomada/tmp/npm-18016/1373734233058-0.9442901979200542/package
+301 silly lockFile f6343e2f-teformat-1-0-6-1-2-3-package-tgz tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz
+302 silly lockFile f6343e2f-teformat-1-0-6-1-2-3-package-tgz tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz
+303 silly lockFile c3b5af90-m-dateformat-1-0-6-1-2-3-package /home/nomada/.npm/dateformat/1.0.6-1.2.3/package
+304 verbose lock /home/nomada/.npm/dateformat/1.0.6-1.2.3/package /home/nomada/.npm/c3b5af90-m-dateformat-1-0-6-1-2-3-package.lock
+305 silly lockFile c3b5af90-m-dateformat-1-0-6-1-2-3-package /home/nomada/.npm/dateformat/1.0.6-1.2.3/package
+306 silly lockFile c3b5af90-m-dateformat-1-0-6-1-2-3-package /home/nomada/.npm/dateformat/1.0.6-1.2.3/package
+307 verbose tar unpack /home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz
+308 silly lockFile 4c834e9a-m-dateformat-1-0-6-1-2-3-package tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package
+309 verbose lock tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package /home/nomada/.npm/4c834e9a-m-dateformat-1-0-6-1-2-3-package.lock
+310 silly lockFile f6343e2f-teformat-1-0-6-1-2-3-package-tgz tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz
+311 verbose lock tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz /home/nomada/.npm/f6343e2f-teformat-1-0-6-1-2-3-package-tgz.lock
+312 silly gunzTarPerm modes [ '755', '644' ]
+313 silly gunzTarPerm extractEntry package.json
+314 silly gunzTarPerm extractEntry Readme.md
+315 silly gunzTarPerm extractEntry lib/dateformat.js
+316 silly gunzTarPerm extractEntry test/basic.js
+317 silly gunzTarPerm extractEntry test/test_dayofweek.js
+318 silly gunzTarPerm extractEntry test/test_weekofyear.js
+319 silly gunzTarPerm extractEntry test/test_weekofyear.sh
+320 silly lockFile 4c834e9a-m-dateformat-1-0-6-1-2-3-package tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package
+321 silly lockFile 4c834e9a-m-dateformat-1-0-6-1-2-3-package tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package
+322 silly lockFile f6343e2f-teformat-1-0-6-1-2-3-package-tgz tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz
+323 silly lockFile f6343e2f-teformat-1-0-6-1-2-3-package-tgz tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz
+324 verbose chmod /home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz 644
+325 verbose chown /home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz [ 1000, 1000 ]
+326 silly lockFile 98600888-ormat-dateformat-1-0-6-1-2-3-tgz https://registry.npmjs.org/dateformat/-/dateformat-1.0.6-1.2.3.tgz
+327 silly lockFile 98600888-ormat-dateformat-1-0-6-1-2-3-tgz https://registry.npmjs.org/dateformat/-/dateformat-1.0.6-1.2.3.tgz
+328 silly lockFile 0128c02f-dateformat-1-0-6-1-2-3 dateformat@1.0.6-1.2.3
+329 silly lockFile 0128c02f-dateformat-1-0-6-1-2-3 dateformat@1.0.6-1.2.3
+330 silly lockFile fa876287-dateformat-1-0-4-1-2-3 dateformat@~1.0.4-1.2.3
+331 silly lockFile fa876287-dateformat-1-0-4-1-2-3 dateformat@~1.0.4-1.2.3
+332 silly resolved [ { name: 'growl',
+332 silly resolved     version: '1.7.0',
+332 silly resolved     description: 'Growl unobtrusive notifications',
+332 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+332 silly resolved     main: './lib/growl.js',
+332 silly resolved     readme: '# Growl for nodejs\n\nGrowl support for Nodejs. This is essentially a port of my [Ruby Growl Library](http://github.com/visionmedia/growl). Ubuntu/Linux support added thanks to [@niftylettuce](http://github.com/niftylettuce). \n\n## Installation\n\n### Install \n\n### Mac OS X (Darwin):\n\n  Install [growlnotify(1)](http://growl.info/extras.php#growlnotify). On OS X 10.8, Notification Center is supported using [terminal-notifier](https://github.com/alloy/terminal-notifier). To install:\n  \n      $ sudo gem install terminal-notifier\n      \n  Install [npm](http://npmjs.org/) and run:\n  \n      $ npm install growl\n\n### Ubuntu (Linux):\n\n  Install `notify-send` through the [libnotify-bin](http://packages.ubuntu.com/libnotify-bin) package:\n\n      $ sudo apt-get install libnotify-bin\n\n  Install [npm](http://npmjs.org/) and run:\n  \n      $ npm install growl\n\n### Windows:\n\n  Download and install [Growl for Windows](http://www.growlforwindows.com/gfw/default.aspx)\n\n  Download [growlnotify](http://www.growlforwindows.com/gfw/help/growlnotify.aspx) - **IMPORTANT :** Unpack growlnotify to a folder that is present in your path!\n\n  Install [npm](http://npmjs.org/) and run:\n  \n      $ npm install growl\n\n## Examples\n\nCallback functions are optional\n\n    var growl = require(\'growl\')\n    growl(\'You have mail!\')\n    growl(\'5 new messages\', { sticky: true })\n    growl(\'5 new emails\', { title: \'Email Client\', image: \'Safari\', sticky: true })\n    growl(\'Message with title\', { title: \'Title\'})\n    growl(\'Set priority\', { priority: 2 })\n    growl(\'Show Safari icon\', { image: \'Safari\' })\n    growl(\'Show icon\', { image: \'path/to/icon.icns\' })\n    growl(\'Show image\', { image: \'path/to/my.image.png\' })\n    growl(\'Show png filesystem icon\', { image: \'png\' })\n    growl(\'Show pdf filesystem icon\', { image: \'article.pdf\' })\n    growl(\'Show pdf filesystem icon\', { image: \'article.pdf\' }, function(err){\n      // ... notified\n    })\n\n## Options\n\n  - title\n    - notification title\n  - name\n    - application name\n  - priority\n    - priority for the notification (default is 0)\n  - sticky\n    - weither or not the notification should remainin until closed\n  - image\n    - Auto-detects the context:\n      - path to an icon sets --iconpath\n      - path to an image sets --image\n      - capitalized word sets --appIcon\n      - filename uses extname as --icon\n      - otherwise treated as --icon\n      \n## License \n\n(The MIT License)\n\nCopyright (c) 2009 TJ Holowaychuk <tj@vision-media.ca>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+332 silly resolved     readmeFilename: 'Readme.md',
+332 silly resolved     _id: 'growl@1.7.0',
+332 silly resolved     _from: 'growl@~1.7.0' },
+332 silly resolved   { name: 'chokidar',
+332 silly resolved     description: 'A neat wrapper around node.js fs.watch / fs.watchFile.',
+332 silly resolved     version: '0.6.2',
+332 silly resolved     keywords: [ 'fs', 'watch', 'watchFile', 'watcher', 'file' ],
+332 silly resolved     homepage: 'https://github.com/paulmillr/chokidar',
+332 silly resolved     author: { name: 'Paul Miller', url: 'http://paulmillr.com' },
+332 silly resolved     repository:
+332 silly resolved      { type: 'git',
+332 silly resolved        url: 'https://github.com/paulmillr/chokidar.git' },
+332 silly resolved     bugs: { url: 'http://github.com/paulmillr/chokidar/issues' },
+332 silly resolved     licenses: [ [Object] ],
+332 silly resolved     main: './lib/index',
+332 silly resolved     scripts:
+332 silly resolved      { prepublish: 'coffee -o lib/ src/',
+332 silly resolved        test: 'mocha --compilers coffee:coffee-script --require test/common.js --colors' },
+332 silly resolved     dependencies: {},
+332 silly resolved     devDependencies:
+332 silly resolved      { mocha: '~1.7.3',
+332 silly resolved        chai: '~1.4.0',
+332 silly resolved        sinon: '~1.5.2',
+332 silly resolved        'sinon-chai': '2.2.0',
+332 silly resolved        'coffee-script': '~1.6.0' },
+332 silly resolved     readme: '# Chokidar\nA neat wrapper around node.js fs.watch / fs.watchFile.\n\n## Why?\nNode.js `fs.watch`:\n\n* Doesn\'t report filenames on mac.\n* Doesn\'t report events at all when using editors like TextMate2 on mac.\n* Sometimes report events twice.\n* Has only one non-useful event: `rename`.\n* Has [a lot of other issues](https://github.com/joyent/node/issues/search?utf8=✓&q=fs.watch)\n\nNode.js `fs.watchFile`:\n\n* Almost as shitty in event tracking.\n\nChokidar resolves this problems.\n\nIt is used in\n[brunch](http://brunch.io),\n[socketstream](http://www.socketstream.org),\nand [testacular](https://github.com/vojtajina/testacular/)\nand had proven itself in production env.\n\n## Getting started\nInstall chokidar via node.js package manager:\n\n    npm install chokidar\n\nThen just require the package in your code:\n\n```javascript\nvar chokidar = require(\'chokidar\');\n\nvar watcher = chokidar.watch(\'file or dir\', {ignored: /^\\./, persistent: true});\n\nwatcher\n  .on(\'add\', function(path) {console.log(\'File\', path, \'has been added\');})\n  .on(\'change\', function(path) {console.log(\'File\', path, \'has been changed\');})\n  .on(\'unlink\', function(path) {console.log(\'File\', path, \'has been removed\');})\n  .on(\'error\', function(error) {console.error(\'Error happened\', error);})\n\n// \'add\' and \'change\' events also receive stat() results as second argument.\n// http://nodejs.org/api/fs.html#fs_class_fs_stats\nwatcher.on(\'change\', function(path, stats) {\n  console.log(\'File\', path, \'changed size to\', stats.size);\n});\n\nwatcher.add(\'new-file\');\nwatcher.add([\'new-file-2\', \'new-file-3\']);\n\n// Only needed if watching is persistent.\nwatcher.close();\n```\n\n## API\n* `chokidar.watch(paths, options)`: takes paths to be watched and options:\n    * `options.ignored` (regexp or function) files to be ignored. Example:\n    `chokidar.watch(\'file\', {ignored: /^\\./})`.\n    * `options.persistent` (default: `false`). Indicates whether the process\n    should continue to run as long as files are being watched.\n    * `options.ignorePermissionErrors` (default: `false`). Indicates\n      whether to watch files that don\'t have read permissions or not.\n    * `options.ignoreInitial` (default: `false`). Indicates whether chokidar\n    should ignore initial `add` events or not.\n    * `options.interval` (default: `100`). Interval of file system polling.\n    * `options.binaryInterval` (default: `300`). Interval of file system polling for binary files (see extensions in src/is-binary).\n\n`chokidar.watch()` produces an instance of `FSWatcher`. Methods of `FSWatcher`:\n\n* `.add(file / files)`: add directories / files for tracking.\nTakes an array of strings (file paths) or just one path.\n* `.on(event, callback)`: listen for an FS event.\nAvailable events: `add`, `change`, `unlink`, `error`.\nAlso, `all` is available which emitted for every `add`, `change` and `unlink`.\n* `.close()`: remove all listeners from watched files.\n\n## License\nThe MIT license.\n\nCopyright (c) 2013 Paul Miller (http://paulmillr.com)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the "Software"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n',
+332 silly resolved     readmeFilename: 'README.md',
+332 silly resolved     _id: 'chokidar@0.6.2',
+332 silly resolved     _from: 'chokidar@~0.6.2' },
+332 silly resolved   { name: 'dateformat',
+332 silly resolved     description: 'A node.js package for Steven Levithan\'s excellent dateFormat() function.',
+332 silly resolved     maintainers: 'Felix Geisendörfer <felix@debuggable.com>',
+332 silly resolved     homepage: 'https://github.com/felixge/node-dateformat',
+332 silly resolved     author: { name: 'Steven Levithan' },
+332 silly resolved     contributors: [ [Object], [Object], [Object] ],
+332 silly resolved     version: '1.0.6-1.2.3',
+332 silly resolved     main: './lib/dateformat',
+332 silly resolved     dependencies: {},
+332 silly resolved     devDependencies: {},
+332 silly resolved     engines: { node: '*' },
+332 silly resolved     readme: '# dateformat\n\nA node.js package for Steven Levithan\'s excellent [dateFormat()][dateformat] function.\n\n## Modifications\n\n* Removed the `Date.prototype.format` method. Sorry folks, but extending native prototypes is for suckers.\n* Added a `module.exports = dateFormat;` statement at the bottom\n* Added the placeholder `N` to get the ISO 8601 numeric representation of the day of the week\n\n## Usage\n\nAs taken from Steven\'s post, modified to match the Modifications listed above:\n\n    var dateFormat = require(\'dateformat\');\n    var now = new Date();\n\n    // Basic usage\n    dateFormat(now, "dddd, mmmm dS, yyyy, h:MM:ss TT");\n    // Saturday, June 9th, 2007, 5:46:21 PM\n\n    // You can use one of several named masks\n    dateFormat(now, "isoDateTime");\n    // 2007-06-09T17:46:21\n\n    // ...Or add your own\n    dateFormat.masks.hammerTime = \'HH:MM! "Can\\\'t touch this!"\';\n    dateFormat(now, "hammerTime");\n    // 17:46! Can\'t touch this!\n\n    // When using the standalone dateFormat function,\n    // you can also provide the date as a string\n    dateFormat("Jun 9 2007", "fullDate");\n    // Saturday, June 9, 2007\n\n    // Note that if you don\'t include the mask argument,\n    // dateFormat.masks.default is used\n    dateFormat(now);\n    // Sat Jun 09 2007 17:46:21\n\n    // And if you don\'t include the date argument,\n    // the current date and time is used\n    dateFormat();\n    // Sat Jun 09 2007 17:46:22\n\n    // You can also skip the date argument (as long as your mask doesn\'t\n    // contain any numbers), in which case the current date/time is used\n    dateFormat("longTime");\n    // 5:46:22 PM EST\n\n    // And finally, you can convert local time to UTC time. Simply pass in\n    // true as an additional argument (no argument skipping allowed in this case):\n    dateFormat(now, "longTime", true);\n    // 10:46:21 PM UTC\n\n    // ...Or add the prefix "UTC:" to your mask.\n    dateFormat(now, "UTC:h:MM:ss TT Z");\n    // 10:46:21 PM UTC\n\n    // You can also get the ISO 8601 week of the year:\n    dateFormat(now, "W");\n    // 42\n\n    // and also get the ISO 8601 numeric representation of the day of the week:\n    dateFormat(now,"N");\n    // 6\n\n## License\n\n(c) 2007-2009 Steven Levithan [stevenlevithan.com][stevenlevithan], MIT license.\n\n[dateformat]: http://blog.stevenlevithan.com/archives/date-time-format\n[stevenlevithan]: http://stevenlevithan.com/\n',
+332 silly resolved     readmeFilename: 'Readme.md',
+332 silly resolved     _id: 'dateformat@1.0.6-1.2.3',
+332 silly resolved     dist: { shasum: 'ca7f96ee428f68c0ee1bbb062646acad38ce9070' },
+332 silly resolved     _from: 'dateformat@~1.0.4-1.2.3',
+332 silly resolved     _resolved: 'https://registry.npmjs.org/dateformat/-/dateformat-1.0.6-1.2.3.tgz' } ]
+333 info install growl@1.7.0 into /usr/lib/node_modules/node-dev
+334 info install chokidar@0.6.2 into /usr/lib/node_modules/node-dev
+335 info install dateformat@1.0.6-1.2.3 into /usr/lib/node_modules/node-dev
+336 info installOne growl@1.7.0
+337 info installOne chokidar@0.6.2
+338 info installOne dateformat@1.0.6-1.2.3
+339 info /usr/lib/node_modules/node-dev/node_modules/growl unbuild
+340 info /usr/lib/node_modules/node-dev/node_modules/chokidar unbuild
+341 info /usr/lib/node_modules/node-dev/node_modules/dateformat unbuild
+342 verbose tar unpack /home/nomada/.npm/growl/1.7.0/package.tgz
+343 silly lockFile 6088ba37-ules-node-dev-node-modules-growl tar:///usr/lib/node_modules/node-dev/node_modules/growl
+344 verbose lock tar:///usr/lib/node_modules/node-dev/node_modules/growl /home/nomada/.npm/6088ba37-ules-node-dev-node-modules-growl.lock
+345 silly lockFile 41967385-mada-npm-growl-1-7-0-package-tgz tar:///home/nomada/.npm/growl/1.7.0/package.tgz
+346 verbose lock tar:///home/nomada/.npm/growl/1.7.0/package.tgz /home/nomada/.npm/41967385-mada-npm-growl-1-7-0-package-tgz.lock
+347 verbose tar unpack /home/nomada/.npm/chokidar/0.6.2/package.tgz
+348 silly lockFile 876f1bfe-s-node-dev-node-modules-chokidar tar:///usr/lib/node_modules/node-dev/node_modules/chokidar
+349 verbose lock tar:///usr/lib/node_modules/node-dev/node_modules/chokidar /home/nomada/.npm/876f1bfe-s-node-dev-node-modules-chokidar.lock
+350 silly lockFile b1d6f6f6-a-npm-chokidar-0-6-2-package-tgz tar:///home/nomada/.npm/chokidar/0.6.2/package.tgz
+351 verbose lock tar:///home/nomada/.npm/chokidar/0.6.2/package.tgz /home/nomada/.npm/b1d6f6f6-a-npm-chokidar-0-6-2-package-tgz.lock
+352 verbose tar unpack /home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz
+353 silly lockFile 15070535-node-dev-node-modules-dateformat tar:///usr/lib/node_modules/node-dev/node_modules/dateformat
+354 verbose lock tar:///usr/lib/node_modules/node-dev/node_modules/dateformat /home/nomada/.npm/15070535-node-dev-node-modules-dateformat.lock
+355 silly lockFile f6343e2f-teformat-1-0-6-1-2-3-package-tgz tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz
+356 verbose lock tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz /home/nomada/.npm/f6343e2f-teformat-1-0-6-1-2-3-package-tgz.lock
+357 silly gunzTarPerm modes [ '755', '644' ]
+358 silly gunzTarPerm modes [ '755', '644' ]
+359 silly gunzTarPerm modes [ '755', '644' ]
+360 silly gunzTarPerm extractEntry package.json
+361 silly gunzTarPerm extractEntry package.json
+362 silly gunzTarPerm extractEntry package.json
+363 silly gunzTarPerm extractEntry test.js
+364 silly gunzTarPerm extractEntry History.md
+365 silly gunzTarPerm extractEntry .npmignore
+366 silly gunzTarPerm extractEntry README.md
+367 silly gunzTarPerm extractEntry Readme.md
+368 silly gunzTarPerm extractEntry lib/dateformat.js
+369 silly gunzTarPerm extractEntry Readme.md
+370 silly gunzTarPerm extractEntry lib/growl.js
+371 silly gunzTarPerm extractEntry CHANGELOG.md
+372 silly gunzTarPerm extractEntry lib/index.js
+373 silly gunzTarPerm extractEntry test/basic.js
+374 silly gunzTarPerm extractEntry test/test_dayofweek.js
+375 silly gunzTarPerm extractEntry lib/is-binary.js
+376 silly gunzTarPerm extractEntry src/index.coffee
+377 silly gunzTarPerm extractEntry src/is-binary.coffee
+378 silly gunzTarPerm extractEntry test/test_weekofyear.js
+379 silly gunzTarPerm extractEntry test/test_weekofyear.sh
+380 silly gunzTarPerm extractEntry test/common.js
+381 silly gunzTarPerm extractEntry test/chokidar-test.coffee
+382 silly gunzTarPerm extractEntry test/fixtures/binary.mp3
+383 silly gunzTarPerm extractEntry test/fixtures/change.txt
+384 silly lockFile 6088ba37-ules-node-dev-node-modules-growl tar:///usr/lib/node_modules/node-dev/node_modules/growl
+385 silly lockFile 6088ba37-ules-node-dev-node-modules-growl tar:///usr/lib/node_modules/node-dev/node_modules/growl
+386 silly lockFile 41967385-mada-npm-growl-1-7-0-package-tgz tar:///home/nomada/.npm/growl/1.7.0/package.tgz
+387 silly lockFile 41967385-mada-npm-growl-1-7-0-package-tgz tar:///home/nomada/.npm/growl/1.7.0/package.tgz
+388 info preinstall growl@1.7.0
+389 silly gunzTarPerm extractEntry test/fixtures/unlink.txt
+390 verbose readDependencies using package.json deps
+391 verbose readDependencies using package.json deps
+392 silly resolved []
+393 verbose about to build /usr/lib/node_modules/node-dev/node_modules/growl
+394 info build /usr/lib/node_modules/node-dev/node_modules/growl
+395 verbose linkStuff [ true,
+395 verbose linkStuff   '/usr/lib/node_modules',
+395 verbose linkStuff   false,
+395 verbose linkStuff   '/usr/lib/node_modules/node-dev/node_modules' ]
+396 info linkStuff growl@1.7.0
+397 verbose linkBins growl@1.7.0
+398 verbose linkMans growl@1.7.0
+399 verbose rebuildBundles growl@1.7.0
+400 info install growl@1.7.0
+401 info postinstall growl@1.7.0
+402 silly lockFile 15070535-node-dev-node-modules-dateformat tar:///usr/lib/node_modules/node-dev/node_modules/dateformat
+403 silly lockFile 15070535-node-dev-node-modules-dateformat tar:///usr/lib/node_modules/node-dev/node_modules/dateformat
+404 silly lockFile f6343e2f-teformat-1-0-6-1-2-3-package-tgz tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz
+405 silly lockFile f6343e2f-teformat-1-0-6-1-2-3-package-tgz tar:///home/nomada/.npm/dateformat/1.0.6-1.2.3/package.tgz
+406 info preinstall dateformat@1.0.6-1.2.3
+407 verbose readDependencies using package.json deps
+408 verbose readDependencies using package.json deps
+409 silly resolved []
+410 verbose about to build /usr/lib/node_modules/node-dev/node_modules/dateformat
+411 info build /usr/lib/node_modules/node-dev/node_modules/dateformat
+412 verbose linkStuff [ true,
+412 verbose linkStuff   '/usr/lib/node_modules',
+412 verbose linkStuff   false,
+412 verbose linkStuff   '/usr/lib/node_modules/node-dev/node_modules' ]
+413 info linkStuff dateformat@1.0.6-1.2.3
+414 verbose linkBins dateformat@1.0.6-1.2.3
+415 verbose linkMans dateformat@1.0.6-1.2.3
+416 verbose rebuildBundles dateformat@1.0.6-1.2.3
+417 info install dateformat@1.0.6-1.2.3
+418 info postinstall dateformat@1.0.6-1.2.3
+419 silly lockFile 876f1bfe-s-node-dev-node-modules-chokidar tar:///usr/lib/node_modules/node-dev/node_modules/chokidar
+420 silly lockFile 876f1bfe-s-node-dev-node-modules-chokidar tar:///usr/lib/node_modules/node-dev/node_modules/chokidar
+421 silly lockFile b1d6f6f6-a-npm-chokidar-0-6-2-package-tgz tar:///home/nomada/.npm/chokidar/0.6.2/package.tgz
+422 silly lockFile b1d6f6f6-a-npm-chokidar-0-6-2-package-tgz tar:///home/nomada/.npm/chokidar/0.6.2/package.tgz
+423 info preinstall chokidar@0.6.2
+424 verbose readDependencies using package.json deps
+425 verbose readDependencies using package.json deps
+426 silly resolved []
+427 verbose about to build /usr/lib/node_modules/node-dev/node_modules/chokidar
+428 info build /usr/lib/node_modules/node-dev/node_modules/chokidar
+429 verbose linkStuff [ true,
+429 verbose linkStuff   '/usr/lib/node_modules',
+429 verbose linkStuff   false,
+429 verbose linkStuff   '/usr/lib/node_modules/node-dev/node_modules' ]
+430 info linkStuff chokidar@0.6.2
+431 verbose linkBins chokidar@0.6.2
+432 verbose linkMans chokidar@0.6.2
+433 verbose rebuildBundles chokidar@0.6.2
+434 info install chokidar@0.6.2
+435 info postinstall chokidar@0.6.2
+436 verbose about to build /usr/lib/node_modules/node-dev
+437 info build /usr/lib/node_modules/node-dev
+438 verbose linkStuff [ true, '/usr/lib/node_modules', true, '/usr/lib/node_modules' ]
+439 info linkStuff node-dev@2.0.1
+440 verbose linkBins node-dev@2.0.1
+441 verbose link bins [ { 'node-dev': './bin/node-dev' }, '/usr/bin', true ]
+442 verbose linkMans node-dev@2.0.1
+443 verbose rebuildBundles node-dev@2.0.1
+444 verbose rebuildBundles [ 'chokidar', 'dateformat', 'growl' ]
+445 info install node-dev@2.0.1
+446 info postinstall node-dev@2.0.1
+447 error peerinvalid The package generator-karma does not satisfy its siblings' peerDependencies requirements!
+447 error peerinvalid Peer generator-angular@0.3.0 wants generator-karma@~0.3.0
+447 error peerinvalid Peer generator-express-angular@0.2.4 wants generator-karma@~0.2.0
+448 error System Linux 3.8.0-26-generic
+449 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "node-dev"
+450 error cwd /DADOS/GITHUB/GROW-NA
+451 error node -v v0.10.13
+452 error npm -v 1.3.2
+453 error code EPEERINVALID
+454 verbose exit [ 1, true ]
