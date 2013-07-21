@@ -17,4 +17,7 @@ START DB
 
 RASP (armhf)
 ssh -X <ip address of Rpi> -l <username on Rpi>
+
 midori & //internet browser
+
+./mongod --rest
