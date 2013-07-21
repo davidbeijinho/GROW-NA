@@ -21,3 +21,7 @@ ssh -X <ip address of Rpi> -l <username on Rpi>
 midori & //internet browser
 
 ./mongod --rest
+
+mongo
+use admin
+db.shutdownServer()
