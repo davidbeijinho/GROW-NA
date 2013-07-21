@@ -12,5 +12,6 @@
     , "jade": ">= 0.0.1"
     , "less-middleware": "*"
     , "mongoose" : "*"
+    , "johnny-five" :"*"
   }
 }
