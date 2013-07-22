@@ -20,8 +20,8 @@ ssh -X <ip address of Rpi> -l <username on Rpi>
 
 midori & //internet browser
 
-./mongod --rest
+~/ArduPi/mongodb-rpi/mongo/bin/mongod --rest
 
-mongo
+~/ArduPi/mongodb-rpi/mongo/bin/mongo
 use admin
 db.shutdownServer()
