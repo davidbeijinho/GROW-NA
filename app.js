@@ -5,7 +5,7 @@ var express = require('express')
 , api = require('./routes/api')
 , http = require('http')
 , dados = require('./db.js')
-, arduino = require('./arduino.js')
+//, arduino = require('./arduino.js')
 , path = require('path');
 
 var app = express();
