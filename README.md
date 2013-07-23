@@ -28,6 +28,7 @@ db.shutdownServer()
 
 
 >PIN-13 - LED VERDE
+
 >PIN-52 - LED VERMELHO
 >PIN-53 - LED AMARELO
 >A0     - POT PEQUENO
