@@ -25,3 +25,10 @@ midori & //internet browser
 ~/ArduPi/mongodb-rpi/mongo/bin/mongo
 use admin
 db.shutdownServer()
+
+
+PIN-13 - LED VERDE
+PIN-52 - LED VERMELHO
+PIN-53 - LED AMARELO
+A0     - POT PEQUENO
+A1     - POT GRANDE
